@@ -1,0 +1,28 @@
+// @mixin font($f-name, $f-path, $f-weight: normal, $f-style: normal){
+// 	@font-face{
+// 		font-family: $f-name;
+// 		src: url('#{$url-font}#{$f-path}.eot');
+// 		src: url('#{$url-font}#{$f-path}.eot?#iefix') format('embedded-opentype'),
+// 		url('#{$url-font}#{$f-path}.woff') format('woff'),
+// 		url('#{$url-font}#{$f-path}.ttf') format('truetype');
+// 		font-weight: $f-weight;
+// 		font-style: $f-style;
+//     font-display: swap;
+//   }
+// }
+
+// font-weight helper:
+
+// 100 Extra Light or Ultra Light;
+// 200 Light or Thin; 
+// 300 Book or Demi;
+// 400 Regular or Normal;
+// 500 Medium;
+// 600 Semibold or Demibold;
+// 700 Bold;
+// 800 Black or Extra Bold or Heavy;
+// 900 Extra Black or Fat or Ultra Black
+
+// Example
+// @include font('Circe', '/forder/Circe-Bold', 400, italic);
+// @include font('Circe', 'Circe-Bold');

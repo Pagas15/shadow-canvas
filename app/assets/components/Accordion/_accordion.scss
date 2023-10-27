@@ -1,0 +1,15 @@
+.accordion {
+	&__item{
+		&:not(.active){
+			.accordion__content{
+				display: none;
+			}
+		}
+	}
+	&__btn{
+
+	}
+	&__content{
+
+	}
+}

@@ -1,0 +1,21 @@
+.tabs{
+	&__listBtns{
+
+	}
+	&__itemBtb{
+
+	}
+	&__btn{
+		&.active{
+			background: rgb(181, 121, 211);
+		}
+	}
+	&__listBlocks{
+
+	}
+	&__itemBlock{
+		&:not(.active){
+			display: none;
+		}
+	}
+}
