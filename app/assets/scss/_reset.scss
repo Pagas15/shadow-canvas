@@ -1,62 +1,61 @@
-*{
-	margin: 0;
-	padding: 0;
-	border: 0;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
-*, 
-*:before, 
-*:after{
-	box-sizing: border-box;
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
 }
 
-article, 
-aside, 
-details, 
-main, 
-figcaption, 
-figure, 
+article,
+aside,
+details,
+main,
+figcaption,
+figure,
 hgroup,
 menu,
 nav,
-header, 
-footer, 
-section{
-	display: block;
+header,
+footer,
+section,
+canvas {
+  display: block;
 }
 
-body{
-	font-family: $fontMain, Arial, Tahoma, sans-serif;
-	line-height: 1em;
-	font-weight: $fontMainWeight;
-	// min-height: 100vh;
+body {
+  font-family: $fontMain, Arial, Tahoma, sans-serif;
+  line-height: 1em;
+  font-weight: $fontMainWeight;
+  // min-height: 100vh;
 }
-
 
 input::-ms-clear {
-	display: none;
+  display: none;
 }
 
-
 button {
-	font-family: inherit;
-	cursor: pointer;
-	outline: none;
-	background: transparent;
+  font-family: inherit;
+  cursor: pointer;
+  outline: none;
+  background: transparent;
 }
 
 button::-moz-focus-inner {
-    padding: 0;
-    border: 0;
+  padding: 0;
+  border: 0;
 }
 
 a,
 a:visited {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 h1,
@@ -65,10 +64,11 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: inherit;
-    font-size: inherit;
+  font-weight: inherit;
+  font-size: inherit;
 }
 
-ul, ol{
+ul,
+ol {
   list-style: none;
 }

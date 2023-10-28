@@ -1,0 +1,17 @@
+1. Gray background
+
+2. Cursor with light
+2.1 Create a static point that acts as a light
+2.2 Make a type of light from the point
+2.3 Add the ability to switch the priyazki to the mouse
+
+3. object that will cast a shadow
+3.1 Create an object
+3.2 Add the possibility of different color and size
+3.3 Possibility to rotate around its axis these objects
+
+4. ray tracing to the objects
+
+5. Spavn objects 
+
+6. Moving objects
